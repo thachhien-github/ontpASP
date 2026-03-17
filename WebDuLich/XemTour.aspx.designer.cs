@@ -24,39 +24,12 @@ namespace WebDuLich
         protected global::System.Web.UI.WebControls.DropDownList ddlDiadiem;
 
         /// <summary>
-        /// lbTen control.
+        /// rptTour control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbTen;
-
-        /// <summary>
-        /// lbGia control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbGia;
-
-        /// <summary>
-        /// lbSoNgay control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbSoNgay;
-
-        /// <summary>
-        /// lbSoDem control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbSoDem;
+        protected global::System.Web.UI.WebControls.Repeater rptTour;
     }
 }

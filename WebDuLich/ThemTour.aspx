@@ -30,7 +30,7 @@
           <label>Hình ảnh đại diện</label> 
           <asp:FileUpload ID="FHinh" runat="server" CssClass="form-control" />
      </div>
-     <asp:Button ID="btXuLy" runat="server" Text="Thêm" CssClass="btn btn-primary"  /> <br />
+     <asp:Button ID="btXuLy" runat="server" Text="Thêm" CssClass="btn btn-primary" OnClick="btXuLy_Click" /> <br />
 
     <asp:Label ID="lbThongBao" runat="server" Text="" ForeColor="#cc3300"></asp:Label>
     <asp:ValidationSummary ID="ValidationSummary1" runat="server" ForeColor="#FF3300" />
